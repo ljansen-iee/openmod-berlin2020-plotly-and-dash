@@ -6,8 +6,8 @@
 
 # Getting started
 
-1. Clone the repository locally
+1. Clone the repository locally `git clone https://github.com/lukasnacken/openmod-berlin2020-plotly-and-dash`
 2. Install the dependencies `pip install -r requirements.txt`
-3. Run the jupyter notebook "plotly_express0.ipynb"
+3. Run the jupyter notebook `plotly_express0.ipynb`
 4. Run the app0.py file locally with `python app0.py`
 5. Open the apps in your browser under `http://127.0.0.1:8050`
