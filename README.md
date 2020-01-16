@@ -14,4 +14,4 @@
 
 # Data
 
-The data is from https://data.open-power-system-data.org/ and the data license is [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+The heat data is from https://data.open-power-system-data.org/when2heat/2019-08-06  and the plants data is from https://data.open-power-system-data.org/conventional_power_plants/2018-12-20. The data license is [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
