@@ -1,9 +1,5 @@
 # Repository for the openmod session "Create Interactive Visualizations and Applications for Energy Models with pure Python"
 
-# Requirements
-
-* python 3.6 or higher
-
 # Getting started
 
 1. Clone the repository locally `git clone https://github.com/lukasnacken/openmod-berlin2020-plotly-and-dash`
