@@ -9,7 +9,7 @@ app.layout = html.Div([
         html.H1("Demo: Plotly Express in Dash with Heat Demand Data"),
         dcc.Input(id="x"),
         html.H2(id="x_output")
-        
+
     ])
 
 @app.callback(Output("x_output", "children"), [Input("x", "value")])

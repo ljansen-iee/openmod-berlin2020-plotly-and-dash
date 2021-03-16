@@ -1,0 +1,11 @@
+name: plotly-tutorial
+channels:
+    - conda-forge
+dependencies:
+    - python=3.8
+    - notebook
+    - pandas=1.2
+    - pip
+    - pip:
+        - plotly==4.14
+        - dash==1.19

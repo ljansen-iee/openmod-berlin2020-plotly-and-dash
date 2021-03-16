@@ -10,10 +10,10 @@ pio.templates.default = "plotly"
 import pandas as pd
 
 heat_demand = pd.read_csv("data/when2heat_stacked_extraction.csv", index_col=[0])
-col_options = [dict(label=col, value=col) for col in heat_demand.columns]
+col_options = [dict(label=col.title(), value=col) for col in heat_demand.columns]
 arguments = ["x", "y", "color", "facet_col", "facet_row"]
 
-app = dash.Dash(__name__, 
+app = dash.Dash(__name__,
     external_stylesheets=["https://codepen.io/chriddyp/pen/bWLwgP.css"]
 )
 
@@ -22,7 +22,7 @@ app.layout = html.Div(
         html.H1("Demo: Plotly Express in Dash with Heat Demand Data"),
         html.Div(
             [
-                html.P([a + ":", dcc.Dropdown(id=a, options=col_options)])
+                html.P([a + ":", dcc.Dropdown(id=a, options=col_options, value=col_options[0]["value"])])
                 for a in arguments
             ],
             style={"width": "25%", "float": "left"},
